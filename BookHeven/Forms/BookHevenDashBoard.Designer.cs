@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BookHevenDashBoard));
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.UserPnl = new System.Windows.Forms.Panel();
             this.btn_UserAdd = new System.Windows.Forms.Button();
@@ -461,7 +460,6 @@
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(11, 19);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(11, 4, 0, 4);
             this.pictureBox1.Name = "pictureBox1";
